@@ -6,11 +6,15 @@ UDP server installation for ZIVPN Tunnel (SSH/DNS) VPN app.
 >Server binary for Linux amd64.
 
 #### Installation
-
+```
 wget -O zi.sh https://raw.githubusercontent.com/zahidbd2/udp-zivpn/main/zi.sh; chmod +x zi.sh; ./zi.sh
+```
 
 ### Uninstall
+
+```
 wget -O ziun.sh https://raw.githubusercontent.com/zahidbd2/udp-zivpn/main/uninstall.sh; chmod +x ziun.sh; ./ziun.sh
+```
 
 Client App available:
 
