@@ -2,9 +2,9 @@
   "listen": ":5666",
   "cert": "/etc/zivpn/zivpn.crt",
   "key":  "/etc/zivpn/zivpn.key",
-  "obfs":"zivpn",
+  "obfs":"aiotunnel",
   "auth": {
     "mode": "passwords", 
-    "config": ["zi"]
+    "config": ["aiotunnel"]
   }
 }

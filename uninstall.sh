@@ -1,7 +1,8 @@
 #!/bin/bash
 # ZiVPN Remover
+# Forked By Me..
 clear
-echo -e "Uninstalling ZiVPN ..."
+echo -e "Uninstalling AIO-Tunnel VPN ..."
 systemctl stop zivpn.services
 systemctl disable zivpn.service
 rm /etc/systemd/system/zivpn.service 1> /dev/null 2> /dev/null
